@@ -1,7 +1,7 @@
 #lang racket
 (require "pmatch.rkt")
-(require "mk.rkt")
-(provide (all-defined-out) (all-from-out "mk.rkt"))
+(require "mini-for-dependent.rkt")
+(provide (all-defined-out) (all-from-out "mini-for-dependent.rkt"))
 
 ; Fails with pmatch failure
 (define (lookup x env)
